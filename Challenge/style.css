@@ -1,0 +1,63 @@
+
+
+.body{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid;
+}
+
+.btn{
+    border: 1px solid;
+    margin-bottom: 1em;
+}
+
+.btn button{
+    background-color: skyblue;
+    color: white;
+    border-radius: 15px;
+    height: 2em;
+
+}    
+
+.output , chg-2{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.output img{
+    border: 1px solid;
+    margin: 1em;
+    width: 150px;
+    height: 150px;
+}
+
+.play h1{
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
+}
+
+.btn-success, .btn-primary, .btn-danger{
+    border-radius: 15px;
+    padding: .7em;
+    margin: 1em;
+    border: none;
+}
+
+.btn-success{
+    background-color: green;
+}
+
+.btn-primary{
+    background-color: blue;
+}
+
+.btn-danger{
+    background-color: red;
+}

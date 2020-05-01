@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>javascript</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <div class="container-1">
+            <h1>Challenge 1</h1>
+        </div>
+        <div class="btn">
+            <button type="submit" class="btn-primary" onclick=generateCat()>Generate Bottle</button>
+        </div>
+        <div class="output" id="output">
+        </div>
+        <div class="container-2">
+            <h1>Challenge 2</h1>
+        </div>
+        <div class="output" id="play">        
+            <img src="rock.jpg" alt="rock" class="human-choice" id="rock" onclick=back(this)>
+            <img src="paper.jpg" alt="paper" class="human-choice" id="paper" onclick=back(this)>
+            <img src="scissor.jpg" alt="scissor" class="human-choice" id="scissor" onclick= back(this)>
+        </div>
+        <div class="container-3">
+            <h1>Challenge 3</h1>
+        </div>
+        <div class="all">
+            <form acion="">
+                    <select name="dropdown" class="changeColor" onclick=changeColor()>
+                        <option value="Reset">Reset</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="Random">Random</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <button type="submit" class="btn-danger">Red</button>
+                <button type="submit" class="btn-primary">blue</button>
+                <button type="submit" class="btn-success">green</button>
+                <button type="submit" class="btn-danger">Red</button>
+            </div>
+        </div>
+    </body>
+</html>
